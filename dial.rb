@@ -1,4 +1,4 @@
-require 'sinatra'
+require 'inatra'
 
 post '/voice' do
   phoneNumber = params[:callerNumber]
